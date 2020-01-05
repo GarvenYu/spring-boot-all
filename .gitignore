@@ -2,7 +2,8 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
+.metadata/
+.recommenders/
 # Package Files #
 *.jar
 *.war
@@ -62,3 +63,30 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+.metadata/.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.mvn
+mvnw*
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+logs/
